@@ -156,7 +156,10 @@ fileChannel = 'file-upload'
 whitelistChannels = [
         'general',                                                              
         'bot-help',                                                 
-        'test-channel',                                                         
+        'test-channel',
+        'queries-casualtalks',
+        'announcements',
+        'welcome',
         ] #these channels are not cleared during reset, do not include slides-and-media here
 # whitelistChannels are not cleared during reset
 # It is assumed that every team has a name like `teamX-chat`
